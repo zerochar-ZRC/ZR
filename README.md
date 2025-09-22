@@ -33,7 +33,7 @@ Simple vars loader/saver from file.
 -  should [zr::read](https://github.com/zerochar-ZRC/ZR/blob/main/headers/zeroresource.h#L21) checks if provided size and written inside zrc file are same. Only for [zr::read](https://github.com/zerochar-ZRC/ZR/blob/main/headers/zeroresource.h#L21).
 
 ### End:
-[zr::end](https://github.com/zerochar-ZRC/ZR/blob/main/headers/zeroresource.h#L27)\
+[zr::end](https://github.com/zerochar-ZRC/ZR/blob/main/headers/zeroresource.h#L27)
 - closes file stream and if write mode - writes how much elements passed.
 
 
