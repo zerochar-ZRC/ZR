@@ -43,14 +43,14 @@ Simple vars loader/saver from file.
 int main() {
 	size_t w_lvl = 50;
 	std::string w_name = "zerochar";
-	zr::start(zr::Type::WRITE, "data", "");
+	zr::start(zr::Type::WRITE, "data");
 	zr::write(&w_lvl,sizeof(w_lvl));
 	zr::writeString(w_name);
 	zr::end();
 	
 	size_t lvl = 0;
 	std::string name;
-	zr::start(zr::Type::READ, "data", "");
+	zr::start(zr::Type::READ, "data");
 	zr::read(&lvl, sizeof(lvl));
 	name = zr::readString();
 	zr::end();
